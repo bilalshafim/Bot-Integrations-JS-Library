@@ -38,7 +38,7 @@ class simpleExchangeResponse {
     }
     public set session(value: object) {
         if (value !== null || value !== undefined) {
-            this._sessionInput = value;
+            this._session = value;
         }
     }
 

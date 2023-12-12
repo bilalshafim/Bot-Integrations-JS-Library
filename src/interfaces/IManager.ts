@@ -1,5 +1,7 @@
 export abstract class IManager{
-    constructor(public botData : String){}
-    abstract establishConnection(botData: String) : void;
-    abstract simpleTextExchange(text: String) : String;
+    constructor(public botConfig : string){}
+    abstract establishConnection(botConfig: string) : void;
+    abstract simpleTextExchange(text: String) : string;
+    abstract exchange(exchangeRequest: object) : object;
+    abstract getBotConfig(botConfig: object) : object;
 }
