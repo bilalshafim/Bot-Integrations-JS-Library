@@ -1,4 +1,4 @@
-class simpleExchangeResponse {
+export class ExchangeResponse {
     private _messages : string[];
     private _userId : string;
     private _customPayload : object;

@@ -1,4 +1,4 @@
-class ESBotConfig {
+export class ESBotConfig {
     private _jsonServiceAccount : object;
     private _gcpProject : string;
     private _region : string;

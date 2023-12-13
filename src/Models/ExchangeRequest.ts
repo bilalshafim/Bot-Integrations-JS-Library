@@ -1,4 +1,4 @@
-class simpleExchangeRequest {
+export class ExchangeRequest {
     private _userInput : string;
     private _userId : string;
     private _botConfig : object;

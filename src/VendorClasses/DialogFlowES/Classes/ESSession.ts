@@ -1,4 +1,4 @@
-class ESSession {
+export class ESSession {
     private _sessionId : string;
 
     public get sessionId() {
